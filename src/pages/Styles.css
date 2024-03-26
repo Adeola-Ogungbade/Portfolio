@@ -1,0 +1,10 @@
+.bg1 {
+  background-image: url("../assets/section3bg.png");
+  background-size: cover;
+}
+
+.homeBg {
+  background-image: url("../assets/blueblue.jpg");
+  background-size: contain;
+  background-repeat: repeat;
+}
