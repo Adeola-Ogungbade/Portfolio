@@ -1,4 +1,5 @@
 import "./App.css";
+import Contact from "./pages/Contact";
 import LandingPage from "./pages/LandingPage";
 
 function App() {

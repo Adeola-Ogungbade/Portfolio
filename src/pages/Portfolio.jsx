@@ -4,6 +4,7 @@ import TabContent from '../components/TabContent';
 import image3 from '../assets/image3.png';
 import image2 from '../assets/image2.png';
 import image1 from '../assets/image1.png';
+import './Styles.css'
 
 const Portfolio = () => {
     const [activeTab, setActiveTab] = useState('All');
@@ -79,18 +80,26 @@ const Portfolio = () => {
           <div className='pt-12'>
               {activeTab === 'All' && (
                   <div className='md:flex md:justify-between space-y-10 md:space-y-0 '>
-                       <TabContent 
+                      <div className='slide-in-right'>
+                           <TabContent 
                           image={image1}
                           title={'Admin Portal'}
                       text={'Admin Portal built with Next js'} />
+                      </div>
+                      <div className='slide-in-left'>
+                          
                        <TabContent
                           image={image3}
                           title={'Landing Page'}
                       text={'Furniture Company website built with angular'} />
-                      <TabContent
+                        </div>
+                      <div className='slide-in-right'>
+                          <TabContent
                           title={'Cosmetics company Landing Page'}
                     image={image1}
                       text={'Cosmetics Landing page built with React js'} />
+                      </div>
+
                   </div>
                   
                   

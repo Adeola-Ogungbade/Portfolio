@@ -8,3 +8,86 @@
   background-size: contain;
   background-repeat: repeat;
 }
+.projectBg {
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 43, 106, 0.2),
+      rgba(0, 43, 106, 1)
+    ),
+    url("../assets/calling.jpg");
+  background-size: cover;
+}
+
+@media screen and (max-width: 950px) {
+  .projectBg {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 43, 106, 0.2),
+        rgba(0, 43, 106, 1)
+      ),
+      url("../assets/calling.jpg");
+    background-size: cover;
+  }
+}
+.waving {
+  color: orange;
+  animation: wave 1.5s infinite;
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-15deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(15deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/* Animations */
+@keyframes slide-in-left {
+  0% {
+    transform: translateX(-100vw) translateY(50px) rotate(-40deg);
+  }
+  25% {
+    transform: translateX(0px) translateY(0px) rotate(0deg);
+  }
+  75% {
+    transform: translateX(0px) translateY(0px) rotate(0deg);
+  }
+  100% {
+    transform: translateX(0px) translateY(500px) rotate(0deg);
+  }
+}
+
+@keyframes slide-in-right {
+  0% {
+    transform: translateX(100vw) translateY(-50px) rotate(-40deg);
+  }
+  25% {
+    transform: translateX(0px) translateY(0px) rotate(0deg);
+  }
+  75% {
+    transform: translateX(0px) translateY(0px) rotate(0deg);
+  }
+  100% {
+    transform: translateX(0px) translateY(500px) rotate(0deg);
+  }
+}
+
+/* Apply animations to elements */
+.slide-in-left {
+  animation: slide-in-left 3s infinite linear;
+}
+
+.slide-in-right {
+  animation: slide-in-right 3s infinite linear;
+}
