@@ -38,7 +38,7 @@ const Home = () => {
           <>
             <img className='hidden lg:flex absolute left-12 ' src={ellipses} alt="ellipses" />
       </> 
-          <div className=' lg:mt-24 md:mt-5 lg:flex relative'>
+          <div className=' lg:mt-20 md:mt-5 lg:flex relative'>
               <div className='flex items-center align-middle justify-center lg:hidden  sm:px-32'>
                   <img className='rounded-[50%] md:w-[25em] md:h-[25em]' src={adeolaimage1} alt='image' />
                   <button className=' right-5 top-64 bg-white absolute rounded-lg flex px-5 py-2 gap-4 text-black'>
@@ -55,8 +55,8 @@ const Home = () => {
                   <h1>"Hello</h1>
                   <span className='waving mt-1'> <FaRegHandPaper  /> </span>
                 </div>
-                  <h1 className='lg:text-[40px] 2xl:text-[50px] text-[27px] sm:text-[48px] font-extrabold '> I’m Adeola Ogungbade, A Front-End <TypingAnimation text='Software Engineer "' /></h1>  
-                  <h5 className='font-bold text-[14px] sm:text-[17px] lg:text-base'>I am a passionate software developer specializing in Angular, React, and Next.js. With two years of hands-on experience, I craft elegant digital solutions that drive results. Let's build something extraordinary together </h5>
+                  <h1 className='lg:text-[40px] 2xl:text-[50px] text-[27px] sm:text-[48px] font-extrabold '> I’m Adeola Ogungbade, A Front-End <TypingAnimation text='Software Engineer "' />|</h1>  
+                  <h5 className='font-bold text-[14px] sm:text-[17px] lg:text-base'>I specialize in utilizing Angular, React, and Next.js to develop innovative digital solutions. With two years of practical experience, I am dedicated to creating elegant solutions that deliver tangible results. I am excited about the prospect of collaborating with you to create something exceptional. Let us embark on this journey together.</h5>
                   <div className='sm:flex sm:flex-row flex-col space-y-5 sm:space-y-0 w-full gap-5 mt-6 lg:mt-10 sm:mt-14 mb-24'>
                       <Buttons
                           text={'Get Started'}
@@ -73,7 +73,7 @@ const Home = () => {
                   <img className='w-full h-full' src={ovals} alt='ovals' />
                   <img className='absolute right-9 bottom-0  w-[60%] h-[80vh]' src={armsfolded} alt='image' />
                   <img className='hidden lg:flex absolute right-[-40px]  top-64 t' src={ellipses} alt="ellipses" />
-                  <button className=' right-10  top-64 bg-white absolute rounded-lg flex px-4 gap-4'>
+                  <button className=' right-10  top-64 bg-white absolute rounded-lg flex px-4 p-3 gap-4'>
                       <h1 className='text-[#002855] text-[35px] font-extrabold'> 2+</h1>
                       <div className='text-start'>
                           <h1 className='font-bold text-black'> Years</h1>

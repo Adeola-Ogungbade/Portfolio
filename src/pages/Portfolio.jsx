@@ -80,20 +80,20 @@ const Portfolio = () => {
           <div className='pt-12'>
               {activeTab === 'All' && (
                   <div className='md:flex md:justify-between space-y-10 md:space-y-0 '>
-                      <div className='slide-in-right'>
+                      <div className=''>
                            <TabContent 
                           image={image1}
                           title={'Admin Portal'}
                       text={'Admin Portal built with Next js'} />
                       </div>
-                      <div className='slide-in-left'>
+                      <div className=''>
                           
                        <TabContent
                           image={image3}
                           title={'Landing Page'}
                       text={'Furniture Company website built with angular'} />
                         </div>
-                      <div className='slide-in-right'>
+                      <div className=''>
                           <TabContent
                           title={'Cosmetics company Landing Page'}
                     image={image1}
@@ -129,7 +129,7 @@ const Portfolio = () => {
                   <div className='md:flex md:justify-between space-y-10 md:space-y-0'>
                        <TabContent
                       image={image3}
-                  title={'react react'}
+                  title={'Portfolio'}
                       />
                        <TabContent
                       image={image3}

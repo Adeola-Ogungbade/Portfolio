@@ -4,12 +4,15 @@ import Buttons from '../components/Buttons';
 import '../pages/Styles.css';
 import { useState } from 'react';
 
+
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
+
 
   const handleClick = () => {
     setIsOpen(!isOpen);
   };
+
 
 
   return (
@@ -47,8 +50,8 @@ const Nav = () => {
                   <li><a>Contact</a></li>
               </ul>
               <div className='hidden lg:flex'>
-                  <Buttons
-                      text={'Download CV'}
+              <Buttons
+            text={'Download CV'}
                       style={{ placeSelf: 'center'}}
                   />
               </div>

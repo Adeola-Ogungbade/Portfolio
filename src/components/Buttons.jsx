@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const button = ({text, onClick, style, image}) => {
   return (

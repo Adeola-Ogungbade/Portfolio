@@ -5,7 +5,7 @@ import newlogo from '../assets/newlogo.png'
 
 const Footer = () => {
   return (
-    <div className='py-24 lg:px-[100px] px-10 bg-[#F5F5F5] '>
+    <div className='py-24 lg:px-[250px] px-10 bg-[#F5F5F5] '>
      <div className=' lg:flex-row justify-between flex flex-col space-y-6 lg:space-y-0'>
    
         <div className=' space-y-4 text-[rgb(0,40,133)] w-full' >
@@ -28,7 +28,7 @@ const Footer = () => {
         </ul>
         </div>
 
-         <div className=' space-y-4 text-[#002855] w-full ' >
+         <div className=' space-y-4 text-[#002855]  flex flex-col justify-end  w-[30%]' >
           <h1 className='text-xl font-bold'> Contact</h1>
           <ul className=' list-none space-y-1 font-semibold'>
             <li><a className='flex space-x-3'>

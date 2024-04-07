@@ -13,20 +13,20 @@ const Services = () => {
       image: pen,
       title: 'Angular Framework',
       text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem has been the industry's standard",
-      backgroundColor: '#F8F8F8',
+      backgroundColor: '#FAFAFA',
     },
     {
       image: circes,
-      title: 'Angular Framework',
+      title: 'React Framework',
       text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem has been the industry's standard",
       backgroundColor: '#002B6A',
       color: 'white',
     },
     {
       image: circleIcon,
-      title: 'Angular Framework',
+      title: 'Next Framework',
       text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem has been the industry's standard",
-      backgroundColor: '#F8F8F8',
+      backgroundColor: '#FAFAFA',
     },
   ];
 
@@ -42,8 +42,7 @@ const Services = () => {
     <div className='lg:px-[100px] px-10 py-10 pb-28'>
       <h1 className='align-middle text-center font-extrabold text-[#002B6A]'> SERVICES </h1>
       <h1 className='pt-1 font-bold text-[20px] lg:text-[35px] text-center'>Expertise Service! Let’s check it out </h1>
-      <h5 className='pt-3 text-start sm:text-center'> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
-          printer took a galley of type and scrambled it to make a type specimen book.</h5>
+      <h5 className='pt-3 text-center sm:text-center lg:text-[18px]'> My frontend services leverage Angular, React, and Next.js to enhance your digital presence. Whether you need robust web applications with Angular, interactive user experiences with React, or optimized performance with Next.js, I am equipped to meet your frontend development needs effectively</h5>
 
       <div className='lg:hidden relative overflow-hidden pt-12 sm:pt-28'>
         <div className="flex transition-transform duration-500">
@@ -69,9 +68,9 @@ const Services = () => {
           </button>
         </div>
       </div>
-      <div className='w-full lg:flex hidden pt-12 sm:pt-28 gap-10'>
+      <div className='w-full lg:flex hidden pt-12 sm:pt-28 gap-10 h-full'>
         {cards.map((card, index) => (
-          <div key={index} className={`w-full `}>
+          <div key={index} className={`w-full  `}>
             <Card
               style={card.backgroundColor? { backgroundColor: card.backgroundColor, color: card.color || 'initial' } : null}
               image={card.image}
