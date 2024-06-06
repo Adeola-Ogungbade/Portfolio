@@ -13,7 +13,7 @@ const Services = () => {
       image: pen,
       title: 'Angular Framework',
       text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem has been the industry's standard",
-      backgroundColor: '#FAFAFA',
+      backgroundColor: '#EEF0F1',
     },
     {
       image: circes,
@@ -26,7 +26,7 @@ const Services = () => {
       image: circleIcon,
       title: 'Next Framework',
       text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem has been the industry's standard",
-      backgroundColor: '#FAFAFA',
+      backgroundColor: '#EEF0F1',
     },
   ];
 
@@ -44,8 +44,8 @@ const Services = () => {
       <h1 className='pt-1 font-bold text-[20px] lg:text-[35px] text-center'>Expertise Service! Let’s check it out </h1>
       <h5 className='pt-3 text-center sm:text-center lg:text-[18px]'> My frontend services leverage Angular, React, and Next.js to enhance your digital presence. Whether you need robust web applications with Angular, interactive user experiences with React, or optimized performance with Next.js, I am equipped to meet your frontend development needs effectively</h5>
 
-      <div className='lg:hidden relative overflow-hidden pt-12 sm:pt-28'>
-        <div className="flex transition-transform duration-500">
+      <div className='lg:hidden relative  overflow-hidden pt-12 sm:pt-28'>
+        <div className="sm:px-24 px-10 lg:px-10 flex transition-transform duration-500">
           {cards.map((card, index) => (
             <div key={index} className={`w-full ${index === currentCardIndex ? '' : 'hidden'}`}>
               <Card
@@ -57,13 +57,13 @@ const Services = () => {
             </div>
           ))}
         </div>
-        <div className=" absolute bottom-1/2 left-0 transform -translate-y-1/2">
-          <button className='bg-white p-2 rounded-full shadow-md' onClick={prevCard}>
+        <div className=" absolute top-[55%] left-0 transform -translate-y-1/2">
+          <button className='bg-white sm:text-3xl text-2xl p-4 sm:p-6 hover:bg-[#e4f1f8] rounded-full shadow-md' onClick={prevCard}>
             <FaChevronLeft />
           </button>
         </div>
-        <div className="absolute bottom-1/2 right-0 transform -translate-y-1/2">
-          <button className='bg-white p-2 rounded-full shadow-md' onClick={nextCard}>
+        <div className="absolute top-[55%] right-0 transform -translate-y-1/2 ">
+          <button className='bg-white sm:p-6 sm:text-3xl text-2xl p-4  rounded-full shadow-md' onClick={nextCard}>
             <FaChevronRight />
           </button>
         </div>

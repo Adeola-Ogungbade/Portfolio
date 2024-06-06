@@ -84,20 +84,20 @@ const Portfolio = () => {
                            <TabContent 
                           image={image1}
                           title={'Admin Portal'}
-                      text={'Admin Portal built with Next js'} />
+                      text={'Admin Portal '} />
                       </div>
                       <div className=''>
                           
                        <TabContent
                           image={image3}
                           title={'Landing Page'}
-                      text={'Furniture Company website built with angular'} />
+                      text={'Furniture Company website '} />
                         </div>
                       <div className=''>
                           <TabContent
-                          title={'Cosmetics company Landing Page'}
+                          title={'Cosmetics Landing Page'}
                     image={image1}
-                      text={'Cosmetics Landing page built with React js'} />
+                      text={'Cosmetics Landing page '} />
                       </div>
 
                   </div>
@@ -148,7 +148,8 @@ const Portfolio = () => {
                   <div className='md:flex md:justify-between space-y-10 md:space-y-0'>
                       <TabContent
                       image={image1}
-                  title={'Next js'}
+                          title={'SwiftFlow '}
+                          text={'A banking website'}
                       />
                       <TabContent
                       image={image1}

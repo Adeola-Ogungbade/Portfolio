@@ -8,6 +8,22 @@
   background-size: contain;
   background-repeat: repeat;
 }
+.homeBgs {
+  background: linear-gradient(
+    to right,
+    #002b6a,
+    #002c6b,
+    #004588,
+    #002b6a,
+    #002b6a,
+    #003271,
+    #004588,
+    #002c6b,
+    #002b6a
+  );
+  background-size: cover;
+  background-repeat: repeat-y;
+}
 .projectBg {
   background-image: linear-gradient(
       to right,
@@ -90,4 +106,48 @@
 
 .slide-in-right {
   animation: slide-in-right 3s infinite linear;
+}
+
+.overlay {
+  background-color: rgba(24, 76, 136, 0.6);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.modalContainer {
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.1), 0 20px 40px rgba(0, 0, 0, 0.06);
+}
+
+.modalContent {
+  animation: expandAnimation 1s ease-in-out forwards; /* Use the expandAnimation */
+}
+
+@keyframes expandAnimation {
+  0% {
+    width: 50px; /* Initial width */
+    height: 50px; /* Initial height */
+    border-radius: 50%;
+    top: 0;
+    place-self: end;
+  }
+  100% {
+    width: 100%; /* Final width */
+    height: 100%; /* Final height */
+    border-radius: 0; /* No border radius */
+  }
+}
+
+@keyframes shake {
+  0%, 100% { transform: translate(0, 0) rotate(0); }
+  25%, 75% { transform: translate(-5px, 0) rotate(-5deg); }
+  50% { transform: translate(5px, 0) rotate(5deg); }
+}
+
+.animate-shake {
+  animation: shake 2s ease-in-out infinite; /* Adjust animation duration as needed */
+  animation-delay: 2s; /* Delay before starting the animation */
 }

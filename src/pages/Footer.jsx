@@ -1,9 +1,9 @@
 import React from 'react';
 import logo from '../assets/logo.png';
-import { FaEnvelope, FaFacebook, FaInstagram, FaLinkedin, FaPhone, FaTwitter, FaWhatsapp } from 'react-icons/fa';
+import { FaEnvelope, FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaPhone, FaTwitter, FaWhatsapp } from 'react-icons/fa';
 import newlogo from '../assets/newlogo.png'
 
-const Footer = () => {
+const FooterMobile = () => {
   return (
     <div className='py-24 lg:px-[250px] px-10 bg-[#F5F5F5] '>
      <div className=' lg:flex-row justify-between flex flex-col space-y-6 lg:space-y-0'>
@@ -25,6 +25,7 @@ const Footer = () => {
             <li className=' text-white text-nowrap rounded-full p-3 bg-[#002855]' > <FaLinkedin /></li>
             <li className=' text-white text-nowrap rounded-full p-3 bg-[#002855]'><FaTwitter /></li>
             <li className=' text-white text-nowrap rounded-full p-3 bg-[#002855]'> <FaInstagram/></li>
+            <li className=' text-white text-nowrap rounded-full p-3 bg-[#002855]'> <FaGithub/></li>
         </ul>
         </div>
 
@@ -59,4 +60,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default FooterMobile

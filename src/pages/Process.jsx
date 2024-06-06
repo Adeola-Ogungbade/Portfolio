@@ -14,7 +14,7 @@ const Process = () => {
       image: bulb,
       title: 'Business Planning',
       text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem has been the industry's standard",
-      backgroundColor: '#F8F8F8',
+      backgroundColor: '#EEF0F1',
     },
     {
       image: newIcon,
@@ -27,7 +27,7 @@ const Process = () => {
       image: blueIcon,
       title: 'Business Planning',
       text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem has been the industry's standard",
-      backgroundColor: '#F8F8F8',
+      backgroundColor: '#EEF0F1',
     },
   ];
 

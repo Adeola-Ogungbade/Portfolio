@@ -48,7 +48,6 @@ const AnimatingDivs = (props) => {
     return word.push("\u00A0");
   });
 
-  // Get the tag name from tagMap
   const Tag = tagMap[props.type];
 
   return (

@@ -7,19 +7,19 @@ import { FaArrowLeft } from 'react-icons/fa';
 
 const About = () => {
   return (
-    <div className=' bg1 px-10 sm:px-[100px]  bg text-center py-12'>
+    <div className=' bg1 px-10 sm:px-[100px] w-full  bg text-center py-12'>
       <h1 className='text-[#002B6A] font-[900]'> ABOUT ME</h1>
-      <div className='md:flex  pt-6 sm:pt-3'>
+      <div className='lg:flex   pt-6 sm:pt-3'>
         <img
-          className='w-full'
+          className='w-full lg:h-1/2 xl:h-full xl:w-full   lg:w-1/2'
         src={adeolaImage}
         alt='image'
         />
-        <div className='flex-col flex sm:gap-9 gap-5 pt-10'>
+        <div className='flex-col lg:w-full flex sm:gap-9 gap-5 pt-10 w-full'>
           <h1 className='font-bold text-[25px] sm:text-[30px]'>Developing Solutions, Not Just Visuals!</h1>
           <h5 className='text-start'> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
             printer took a galley of type and scrambled it to make a type specimen book. </h5>
-          <div className='bg-[#FDEDDD] rounded-xl flex p-5 sm:p-10 sm:gap-8 gap-4 text-start'>
+          <div className='bg-[#FDEDDD] rounded-xl flex p-5 sm:p-10  sm:gap-8 gap-4 text-start'>
             <img className='sm:w-7 sm:h-7 h-5 w-5 ' src={plus} alt='icon' />
             <div className='sm:space-y-4 text-sm space-y-1'>
               <h3 className='font-bold text-sm  sm:text-[20px]'> 20 Complete Projects</h3>
@@ -30,15 +30,17 @@ const About = () => {
             <img className='sm:w-7 sm:h-7 w-5 h-5' src={plus} alt='icon' />
             <div className='sm:space-y-4 space-y-1 text-sm sm:text-base'>
               <h3 className='font-bold text-base sm:text-[20px]'> 2+ Years of Experience </h3> 
-              <h5> Lorem Ipsum is simply dummy text of the printing and typesetting i printer took a galley of type and scrambled it to make a book. </h5>
+              <h5 className='text-sm'> Lorem Ipsum is simply dummy text of the printing and typesetting i printer took a galley of type and scrambled it to make a book. </h5>
             </div>
           </div>
-
+          <div className='md:w-[60%] lg:w-full ' >
+            
           <Buttons
             text={'Download CV'}
             style={{width: '100%'}}
           />
 
+</div>
         </div>
       </div>
     </div>

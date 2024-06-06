@@ -8,6 +8,7 @@ import Process from './Process';
 import Portfolio from './Portfolio';
 import Project from './Project';
 import Footer from './Footer';
+import FooterMobile from '../components/Footer'
 
 const LandingPage = () => {
 
@@ -20,8 +21,8 @@ const LandingPage = () => {
 
   return (
     <div >
-      <div className='homeBg'>
-        <Nav/>
+      <div className='homeBg flex flex-col '>
+        <Nav />
       <Home />
       </div>
       <Services />
@@ -29,7 +30,8 @@ const LandingPage = () => {
       <Process />
       <Portfolio />
       <Project />
-      <Footer/>
+      <Footer />
+
     </div>
   )
 }
