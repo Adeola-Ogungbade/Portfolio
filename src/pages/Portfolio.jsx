@@ -5,6 +5,8 @@ import image3 from '../assets/image3.png';
 import image2 from '../assets/image2.png';
 import image1 from '../assets/image1.png';
 import './Styles.css'
+import moniger from '../assets/moniger.png';
+import portfolio from '../assets/portfolio.png'
 
 const Portfolio = () => {
     const [activeTab, setActiveTab] = useState('All');
@@ -45,7 +47,7 @@ const Portfolio = () => {
     setCurrentCardIndex((prevIndex) => (prevIndex === cards.length - 1 ? 0 : prevIndex + 1));
   };
   return (
-    <div className='px-10 md:px-[100px] pt-20 text-center space-y-8 pb-20 bg-[#F5F5F5]'>
+    <div className='px-10 lg:px-[100px] pt-20 text-center space-y-8 pb-20 bg-[#F5F5F5]'>
           <>
               <h5 className='font-[800] text-[#002B6A]'>PORTFOLIO</h5>
           </>
@@ -79,19 +81,20 @@ const Portfolio = () => {
           </div>
           <div className='pt-12'>
               {activeTab === 'All' && (
-                  <div className='md:flex md:justify-between space-y-10 md:space-y-0 '>
+                  <div className='grid lg:grid-cols-3 gap-16 md:grid-cols-2'>
                       <div className=''>
-                           <TabContent 
-                          image={image1}
-                          title={'Admin Portal'}
-                      text={'Admin Portal '} />
+                        <TabContent 
+                        link={'https://helpful-dusk-8d671c.netlify.app/'}
+                          image={moniger}
+                          title={'Moniger'}
+                      text={'Company Landing Page '} />
                       </div>
                       <div className=''>
                           
                        <TabContent
-                          image={image3}
-                          title={'Landing Page'}
-                      text={'Furniture Company website '} />
+                          image={portfolio}
+                          title={'Portfolio'}
+                      text={'Personal Webpage '} />
                         </div>
                       <div className=''>
                           <TabContent
@@ -107,7 +110,7 @@ const Portfolio = () => {
               )}
              
               {activeTab === 'Angular' && (
-                  <div className='md:flex md:justify-between space-y-10 md:space-y-0'>
+                  <div className='grid lg:grid-cols-3 gap-16 md:grid-cols-2'>
                        <TabContent
                       image={image3}
                   title={'react react'}
@@ -126,7 +129,7 @@ const Portfolio = () => {
 
               )}
               {activeTab === 'React' && (
-                  <div className='md:flex md:justify-between space-y-10 md:space-y-0'>
+                  <div className='grid lg:grid-cols-3 gap-16 md:grid-cols-2'>
                        <TabContent
                       image={image3}
                   title={'Portfolio'}
@@ -145,7 +148,7 @@ const Portfolio = () => {
 
               )}
               {activeTab === 'Next' && (
-                  <div className='md:flex md:justify-between space-y-10 md:space-y-0'>
+                  <div className='grid lg:grid-cols-3 gap-16 md:grid-cols-2'>
                       <TabContent
                       image={image1}
                           title={'SwiftFlow '}

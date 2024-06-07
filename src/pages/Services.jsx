@@ -39,12 +39,12 @@ const Services = () => {
   };
 
   return (
-    <div className='lg:px-[100px] px-10 py-10 pb-28'>
+    <div className='lg:px-[100px] px-8 py-10 pb-28'>
       <h1 className='align-middle text-center font-extrabold text-[#002B6A]'> SERVICES </h1>
       <h1 className='pt-1 font-bold text-[20px] lg:text-[35px] text-center'>Expertise Service! Let’s check it out </h1>
       <h5 className='pt-3 text-center sm:text-center lg:text-[18px]'> My frontend services leverage Angular, React, and Next.js to enhance your digital presence. Whether you need robust web applications with Angular, interactive user experiences with React, or optimized performance with Next.js, I am equipped to meet your frontend development needs effectively</h5>
 
-      <div className='lg:hidden relative  overflow-hidden pt-12 sm:pt-28'>
+      <div className='md:hidden relative  overflow-hidden pt-12 sm:pt-28'>
         <div className="sm:px-24 px-10 lg:px-10 flex transition-transform duration-500">
           {cards.map((card, index) => (
             <div key={index} className={`w-full ${index === currentCardIndex ? '' : 'hidden'}`}>
@@ -68,7 +68,7 @@ const Services = () => {
           </button>
         </div>
       </div>
-      <div className='w-full lg:flex hidden pt-12 sm:pt-28 gap-10 h-full'>
+      <div className='w-full lg:flex md:grid md:grid-cols-2   md:place-content-center hidden pt-12 sm:pt-28 gap-10 h-full'>
         {cards.map((card, index) => (
           <div key={index} className={`w-full  `}>
             <Card

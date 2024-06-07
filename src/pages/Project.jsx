@@ -8,17 +8,10 @@ import { FaPhone } from 'react-icons/fa6';
 
 const Project = () => {
   return (
-    <div className='bg-[#002B6A]  md:flex    text-white align-middle justify-center items-center md:pr-[100px] '>
-         <div className=' w-full md:h-[80vh] h-[40vh]  projectBg'>
-        {/* <div className='  '>
-          <img
-          className=' rounded-md  md:h-[40vh] h-[30vh]'
-          src={calling}
-          alt='callme'
-        />
-        </div> */}
+    <div className='bg-[#002B6A]  lg:flex    text-white align-middle justify-center items-center lg:pr-[100px] '>
+         <div className=' w-full lg:h-[80vh] h-[40vh]  projectBg'>
           </div>
-    <div className=' space-y-6 mt-6  p-10 md:px-0 w-full  md:w-[40%]'>
+    <div className=' space-y-6 mt-6  p-10 lg:px-0 w-full md:py-10 md:px-26  lg:w-[40%]'>
         <span className='font-bold md:mtext-[55px] text-3xl text-white flex space-x-4' >
           <FaPhone className='animate-shake' />
           <h3> Got A Project! Let’s Talk</h3>

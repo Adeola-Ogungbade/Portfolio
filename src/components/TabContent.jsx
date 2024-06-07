@@ -3,10 +3,11 @@ import { FaArrowRight } from 'react-icons/fa'
 
 const TabContent = ({title, text, image, link}) => {
   return (
-    <div className='md:space-y-10 space-y-6'>
+    <div className='md:space-y-10 space-y-6 '>
           <div className='w-30 h-30 shadow-xl rounded-xl overflow-hidden'>
-            <img 
-              className='w-full transition-transform duration-500 transform hover:scale-125' 
+        <img
+          style={{objectFit: 'cover'}}
+              className='w-full lg:h-[48vh] h-[30vh]  transition-transform duration-500 transform hover:scale-125' 
               src={image} 
               alt='image' 
             />

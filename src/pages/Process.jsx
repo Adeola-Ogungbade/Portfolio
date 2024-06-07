@@ -39,14 +39,14 @@ const Process = () => {
     setCurrentCardIndex((prevIndex) => (prevIndex === cards.length - 1 ? 0 : prevIndex + 1));
   };
   return (
-    <div className='text-center space-y-10 pt-16 px-10 sm:px-[100px] pb-20'>
+    <div className='text-center space-y-10 pt-16 px-10 lg:px-[100px] pb-20'>
           <>
               <h5 className='font-[800] text-[#002B6A]'> PROCESS </h5>
           </>
           <>
               <h1 className='sm:text-[30px] text-[20px] font-bold'> My Working Process</h1>
           </>
-         <div className='lg:hidden relative overflow-hidden pt-12 sm:pt-28'>
+         <div className='md:hidden relative overflow-hidden pt-12 sm:pt-28'>
         <div className="flex transition-transform duration-500">
           {cards.map((card, index) => (
             <div key={index} className={`w-full ${index === currentCardIndex ? '' : 'hidden'}`}>
@@ -70,7 +70,7 @@ const Process = () => {
           </button>
         </div>
       </div>
-      <div className='w-full lg:flex hidden pt-12 sm:pt-28 gap-10'>
+      <div className='w-full lg:flex hidden md:grid md:grid-cols-2 pt-12 sm:pt-28 gap-10'>
         {cards.map((card, index) => (
           <div key={index} className={`w-full `}>
             <Card
