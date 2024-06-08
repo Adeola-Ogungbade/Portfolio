@@ -10,8 +10,6 @@ import armsfolded from '../assets/armsfolded.png';
 import CountUp from 'react-countup';
 import TypingAnimation from './AnimatedCharacters';
 import { useState } from 'react';
-import AnimatingDivs from '../components/AnimatingDivs';
-import { motion } from 'framer-motion';
 import newAdeolaImage from '../assets/newAdeolaImage.png';
 import { HiOutline, HiOutlineArchive } from 'react-icons/hi';
 import { FaGithub, FaPlayCircle, FaRegHandPaper } from 'react-icons/fa';
