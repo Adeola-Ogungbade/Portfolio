@@ -16,19 +16,19 @@ import {  FaPaperPlane } from 'react-icons/fa6';
 const Home = () => {
 
     const [replay, setReplay] = useState(true);
-      const container = {
-    visible: {
-      transition: {
-        staggerChildren: 0.025
-      }
-    }
-    };
-      const handleReplay = () => {
-    setReplay(!replay);
-    setTimeout(() => {
-      setReplay(true);
-    }, 600);
-  };
+  //     const container = {
+  //   visible: {
+  //     transition: {
+  //       staggerChildren: 0.025
+  //     }
+  //   }
+  //   };
+  //     const handleReplay = () => {
+  //   setReplay(!replay);
+  //   setTimeout(() => {
+  //     setReplay(true);
+  //   }, 600);
+  // };
   return (
       <div className='relative pt-12 min-h-[100vh]  h-full w-full justify-center align-middle xl:pt-24    text-white flex px-[20px]  sm:px-10  lg:px-[50px] xl:px-[100px] '>
            <>

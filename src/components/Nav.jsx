@@ -1,6 +1,4 @@
 import React from 'react';
-import logo from '../assets/logo.png';
-import Buttons from '../components/Buttons';
 import '../pages/Styles.css';
 import { useState } from 'react';
 import Modal from './Modal';
@@ -18,10 +16,10 @@ const Nav = () => {
   };
 
 
-  const handleClick = () => {
-    setIsOpen(!isOpen)
-    setOpenModal(true)
-  };
+  // const handleClick = () => {
+  //   setIsOpen(!isOpen)
+  //   setOpenModal(true)
+  // };
 
 
 
@@ -35,11 +33,11 @@ const Nav = () => {
         />
     <div className=' text-white lg:text-[10px]  w-full h-full justify-center   align-middle font-bold flex '>
             <ul className=' text-xl  md:text-2xl md:gap-16   lg:text-[15px] w-full justify-center gap-12  lg;gap-6 flex list-none  items-center row   '>
-                  <li> <a> <span className='hidden lg:flex'> Home</span> <HiHome className=' block lg:hidden'/> </a> </li>
-                  <li> <a> <span className='hidden lg:flex'> About</span> <ImProfile className=' block lg:hidden'/> </a> </li>
-                  <li> <a> <span className='hidden lg:flex'> Services</span> <FaCode className=' block lg:hidden'/> </a> </li>
-                  <li> <a> <span className='hidden lg:flex'> Portfolio</span> <FaBriefcase className=' block lg:hidden'/> </a> </li>
-                  <li> <a> <span className='hidden lg:flex'> Contact</span> <FaPhoneFlip className=' block lg:hidden'/> </a> </li>
+                  <li> <a href='/home'> <span className='hidden lg:flex'> Home</span> <HiHome className=' block lg:hidden'/> </a> </li>
+                  <li> <a href='/home'> <span className='hidden lg:flex'> About</span> <ImProfile className=' block lg:hidden'/> </a> </li>
+                  <li> <a href='/home'> <span className='hidden lg:flex'> Services</span> <FaCode className=' block lg:hidden'/> </a> </li>
+                  <li> <a href='/home'> <span className='hidden lg:flex'> Portfolio</span> <FaBriefcase className=' block lg:hidden'/> </a> </li>
+                  <li> <a href='/home'> <span className='hidden lg:flex'> Contact</span> <FaPhoneFlip className=' block lg:hidden'/> </a> </li>
 
               </ul>
           </div>

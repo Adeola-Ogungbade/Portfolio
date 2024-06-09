@@ -1,7 +1,6 @@
 import React from 'react';
-import logo from '../assets/logo.png';
-import { FaEnvelope, FaFacebook, FaGithub, FaInstagram, FaLinkedin, FaPhone, FaTwitter, FaWhatsapp } from 'react-icons/fa';
-import newlogo from '../assets/newlogo.png'
+import { FaEnvelope, FaGithub, FaInstagram, FaLinkedin, FaPhone, FaTwitter, FaWhatsapp } from 'react-icons/fa';
+
 
 const FooterMobile = () => {
   return (
@@ -11,10 +10,10 @@ const FooterMobile = () => {
         <div className=' space-y-4 text-[rgb(0,40,133)] w-full' >
           <h1 className='text-xl font-bold'> Navigation</h1>
           <ul className=' list-none space-y-1 text-lg font-semibold'>
-            <li> <a> Home</a></li>
-            <li> <a> About</a></li>
-            <li> <a> Portfolio</a></li>
-            <li> <a> Services</a></li>
+            <li> <a href='/home'> Home</a></li>
+            <li> <a href='/home'> About</a></li>
+            <li> <a href='/home'> Portfolio</a></li>
+            <li> <a href='/home'> Services</a></li>
           </ul>
         </div>
 

@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import Tab from '../components/Tab'
 import TabContent from '../components/TabContent';
 import image3 from '../assets/image3.png';
-import image2 from '../assets/image2.png';
 import image1 from '../assets/image1.png';
 import './Styles.css'
 import moniger from '../assets/moniger.png';
@@ -15,37 +14,37 @@ const Portfolio = () => {
         setActiveTab(tab);
         setIsActive(!isActive);
     }
-     const [currentCardIndex, setCurrentCardIndex] = useState(0);
+//      const [currentCardIndex, setCurrentCardIndex] = useState(0);
 
-  const cards = [
-    {
-      image: image1,
-      title: 'Business Planning',
-      text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem has been the industry's standard",
-      backgroundColor: '#F8F8F8',
-    },
-    {
-      image: image2,
-      title: 'Business Planning',
-      text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem has been the industry's standard",
-      backgroundColor: '#002B6A',
-      color: 'white',
-    },
-    {
-      image: image3,
-      title: 'Business Planning',
-      text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem has been the industry's standard",
-      backgroundColor: '#F8F8F8',
-    },
-  ];
+//   const cards = [
+//     {
+//       image: image1,
+//       title: 'Business Planning',
+//       text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem has been the industry's standard",
+//       backgroundColor: '#F8F8F8',
+//     },
+//     {
+//       image: image2,
+//       title: 'Business Planning',
+//       text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem has been the industry's standard",
+//       backgroundColor: '#002B6A',
+//       color: 'white',
+//     },
+//     {
+//       image: image3,
+//       title: 'Business Planning',
+//       text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem has been the industry's standard",
+//       backgroundColor: '#F8F8F8',
+//     },
+//   ];
 
-  const prevCard = () => {
-    setCurrentCardIndex((prevIndex) => (prevIndex === 0 ? cards.length - 1 : prevIndex - 1));
-  };
+//   const prevCard = () => {
+//     setCurrentCardIndex((prevIndex) => (prevIndex === 0 ? cards.length - 1 : prevIndex - 1));
+//   };
 
-  const nextCard = () => {
-    setCurrentCardIndex((prevIndex) => (prevIndex === cards.length - 1 ? 0 : prevIndex + 1));
-  };
+//   const nextCard = () => {
+//     setCurrentCardIndex((prevIndex) => (prevIndex === cards.length - 1 ? 0 : prevIndex + 1));
+//   };
   return (
     <div className='px-10 lg:px-[100px] pt-20 text-center space-y-8 pb-20 bg-[#F5F5F5]'>
           <>

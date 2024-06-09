@@ -1,9 +1,6 @@
 import React from 'react';
 import Buttons from '../components/Buttons';
-import female from '../assets/female.png';
 import './Styles.css';
-import callme from '../assets/callme.jpg';
-import calling from '../assets/calling.jpg';
 import { FaPhone } from 'react-icons/fa6';
 
 const Project = () => {
