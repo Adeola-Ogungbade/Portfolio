@@ -8,7 +8,7 @@ import { FaBriefcase, FaCode, FaPhoneFlip } from 'react-icons/fa6';
 
 
 const Nav = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  // const [isOpen, setIsOpen] = useState(false);
   const [OpenModal, setOpenModal] = useState(false);
 
   const CloseModal = () => {

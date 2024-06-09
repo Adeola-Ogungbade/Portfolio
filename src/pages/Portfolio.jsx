@@ -90,13 +90,15 @@ const Portfolio = () => {
                       </div>
                       <div className=''>
                           
-                       <TabContent
+                          <TabContent
+                              link={'/home'}
                           image={portfolio}
                           title={'Portfolio'}
                       text={'Personal Webpage '} />
                         </div>
                       <div className=''>
                           <TabContent
+                              link={'/home'}
                           title={'Cosmetics Landing Page'}
                     image={image1}
                       text={'Cosmetics Landing page '} />
@@ -110,15 +112,18 @@ const Portfolio = () => {
              
               {activeTab === 'Angular' && (
                   <div className='grid lg:grid-cols-3 gap-16 md:grid-cols-2'>
-                       <TabContent
+                      <TabContent
+                          link={'/home'}
                       image={image3}
                   title={'react react'}
                       />
-                       <TabContent
+                      <TabContent
+                           link={'/home'}
                       image={image3}
                   title={'react react'}
                       />
-                       <TabContent
+                      <TabContent
+                           link={'/home'}
                       image={image3}
                   title={'react react'}
                       />
@@ -129,15 +134,18 @@ const Portfolio = () => {
               )}
               {activeTab === 'React' && (
                   <div className='grid lg:grid-cols-3 gap-16 md:grid-cols-2'>
-                       <TabContent
+                      <TabContent
+                           link={'/home'}
                       image={image3}
                   title={'Portfolio'}
                       />
-                       <TabContent
+                      <TabContent
+                           link={'/home'}
                       image={image3}
                   title={'react react'}
                       />
-                       <TabContent
+                      <TabContent
+                           link={'/home'}
                       image={image3}
                   title={'react react'}
                       />
@@ -149,15 +157,18 @@ const Portfolio = () => {
               {activeTab === 'Next' && (
                   <div className='grid lg:grid-cols-3 gap-16 md:grid-cols-2'>
                       <TabContent
+                           link={'/home'}
                       image={image1}
                           title={'SwiftFlow '}
                           text={'A banking website'}
                       />
                       <TabContent
+                           link={'/home'}
                       image={image1}
                   title={'Next js'}
                       />
                       <TabContent
+                           link={'/home'}
                       image={image1}
                   title={'Next js'}
                   />

@@ -15,7 +15,7 @@ import {  FaPaperPlane } from 'react-icons/fa6';
 
 const Home = () => {
 
-    const [replay, setReplay] = useState(true);
+    // const [replay, setReplay] = useState(true);
   //     const container = {
   //   visible: {
   //     transition: {
@@ -54,7 +54,7 @@ const Home = () => {
                   <h1 className='lg:text-[38px] 2xl:text-[50px] text-[29px] sm:text-[45px] font-extrabold '> I am Adeola Ogungbade, <br/> A Frontend  <TypingAnimation text='Software Engineer "' /></h1>  
                   <h5 className='font-bold text-[14px] sm:text-[17px] lg:text-base'>I specialize in utilizing Angular, React, and Next.js to develop innovative digital solutions. With two years of practical experience, I am dedicated to creating elegant solutions that deliver tangible results. I am excited about the prospect of collaborating with you to create something exceptional. Let us embark on this journey together.</h5>
                   <div className='sm:flex sm:flex-row  space-y-2 sm:space-y-0 w-full gap-5 mt-6 md:mb-12 xl:mb-0 sm:mb-12 flex flex-col   '>
-                     <a href= "https://github.com/Adeola-Ogungbade" target='_blank'>
+                     <a href= "https://github.com/Adeola-Ogungbade" target='_blank' rel='noopener noreferrer'>
                       <Buttons
                           text={<div className='flex space-x-4 text-center m-auto '> <FaGithub className='mt-1'/> <h1> Github</h1></div>}
                           style={{ display: 'flex', gap: '10px', textAlign: 'center', width:'100%', alignItems: 'center', justifyContent: 'center'}}
