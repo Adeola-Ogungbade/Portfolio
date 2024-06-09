@@ -9,7 +9,7 @@ const TabContent = ({title, text, image, link}) => {
           style={{objectFit: 'cover'}}
               className='w-full lg:h-[48vh] h-[30vh]  transition-transform duration-500 transform hover:scale-125' 
               src={image} 
-              alt='image' 
+              alt='icon' 
             />
           </div>
           <div className='flex justify-between '>

@@ -1,22 +1,15 @@
 import React from 'react';
 import ellipses from '../assets/ellipses.png'
 import Buttons from '../components/Buttons';
-import watch from '../assets/watch.png';
 import ovals from '../assets/ovals.png';
-import computerimage from '../assets/computerimage.png';
 import './Styles.css';
 import adeolaimage1 from '../assets/adeolaimage1.jpeg';
 import armsfolded from '../assets/armsfolded.png';
 import CountUp from 'react-countup';
 import TypingAnimation from './AnimatedCharacters';
 import { useState } from 'react';
-import newAdeolaImage from '../assets/newAdeolaImage.png';
-import { HiOutline, HiOutlineArchive } from 'react-icons/hi';
-import { FaGithub, FaPlayCircle, FaRegHandPaper } from 'react-icons/fa';
-import { BiPlay } from 'react-icons/bi';
-import Modal from '../components/Modal';
-import { FaComment, FaPaperPlane } from 'react-icons/fa6';
-import { Link } from 'react-router-dom';
+import { FaGithub, FaRegHandPaper } from 'react-icons/fa';
+import {  FaPaperPlane } from 'react-icons/fa6';
 
 
 
@@ -43,7 +36,7 @@ const Home = () => {
           </> 
           <div className=' lg:mt-20 md:mt-5 lg:flex relative s'>
                <div className='flex items-center align-middle justify-center lg:hidden  sm:px-32'>
-                  <img className='rounded-[50%] md:w-[30em] md:h-[31em]' src={adeolaimage1} alt='image' />
+                  <img className='rounded-[50%] md:w-[30em] md:h-[31em]' src={adeolaimage1} alt='pic' />
                   <button className=' right-5 top-64 bg-white absolute rounded-lg flex px-5 py-2 gap-4 text-black'>
                       <div className=' text-[35px] font-extrabold'>     <CountUp start={0} end={2} duration={15} decimals={0} />+</div>
                       <div className='text-start'>
@@ -78,7 +71,7 @@ const Home = () => {
         
                <div className='relative w-[50%]  lg:flex hidden lg:visible'>
                   <img className='w-full h-full' src={ovals} alt='ovals' />
-          <img className='absolute right-9 bottom-0  w-[60%] h-full md:w-[72%] lg:w-[100%] xl:w-[100%%]' style={{ objectFit: 'contain'}} src={armsfolded} alt='image' />
+          <img className='absolute right-9 bottom-0  w-[60%] h-full md:w-[72%] lg:w-[100%] xl:w-[100%%]' style={{ objectFit: 'contain'}} src={armsfolded} alt='pic' />
                   <img className='hidden xl:flex absolute right-[-40px]  top-64 t' src={ellipses} alt="ellipses" />
                   <button className=' right-10  top-64 bg-white absolute rounded-lg flex px-4 p-3 gap-4'>
                       <h1 className='text-[#002855] text-[35px] font-extrabold'> 2+</h1>

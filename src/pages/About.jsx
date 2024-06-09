@@ -3,7 +3,6 @@ import adeolaImage from '../assets/adeolaImage.png';
 import './Styles.css';
 import plus from '../assets/plus.png';
 import Buttons from '../components/Buttons'
-import { FaArrowLeft } from 'react-icons/fa';
 
 const About = () => {
   return (
@@ -13,7 +12,7 @@ const About = () => {
         <img
           className='w-full lg:h-1/2 xl:h-full xl:w-full   lg:w-1/2'
         src={adeolaImage}
-        alt='image'
+        alt='icon'
         />
         <div className='flex-col lg:w-full flex sm:gap-9 gap-5 pt-10 w-full'>
           <h1 className='font-bold text-[25px] sm:text-[30px]'>Developing Solutions, Not Just Visuals!</h1>
