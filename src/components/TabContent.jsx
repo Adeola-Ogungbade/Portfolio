@@ -18,7 +18,7 @@ const TabContent = ({title, text, image, link}) => {
                 <h5>{ text}</h5>
               </div>
               <div>
-                  <a href={link} target='_blank' rel='noopener noreferrer'>
+                  <a href={link? link : '/home'} target='_blank' rel='noopener noreferrer'>
                       <button className='bg-blue-800 flex justify-center  items-center w-8 h-8 rounded-[50%] text-white text-[15px] lg:w-10 lg:h-10'>
                         <FaArrowRight/>
                       </button>

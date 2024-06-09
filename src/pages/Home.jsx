@@ -7,7 +7,6 @@ import adeolaimage1 from '../assets/adeolaimage1.jpeg';
 import armsfolded from '../assets/armsfolded.png';
 import CountUp from 'react-countup';
 import TypingAnimation from './AnimatedCharacters';
-import { useState } from 'react';
 import { FaGithub, FaRegHandPaper } from 'react-icons/fa';
 import {  FaPaperPlane } from 'react-icons/fa6';
 
